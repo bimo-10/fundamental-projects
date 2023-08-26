@@ -5,7 +5,7 @@ const App = () => {
   const [datas, setDatas] = useState(data);
 
   const handleClearAll = () => {
-    setDatas((data) => (data = []));
+    setDatas([]);
     console.log(datas);
   };
 
